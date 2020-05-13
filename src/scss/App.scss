@@ -1,0 +1,71 @@
+// @import "../bootstrap/scss/bootstrap";
+
+// color
+$primary: #1D7874;
+
+// margin
+$margin-sml: 40px;
+
+.bg-primary{
+  background-color: #eee!important;
+}
+
+.btn-prev{
+  margin-right: 10px;
+}
+
+.card-header{
+  color: #fff;
+  background-color: $primary;
+}
+
+.card-custom-sml{
+  margin-bottom: $margin-sml;
+}
+
+.card-text span{
+  padding: 1px 7px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.book-listing-container{
+  margin: 0 auto;
+  width: 50%;
+
+  @media only screen and (max-width: 1000px) {
+    width: 100%;
+  }
+}
+
+.book-listing-paginate {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 5px 0px;
+  margin: 10px 0px 40px 0px;
+}
+
+.book-listing-form{
+  float: right;
+}
+
+.book-listing-total{
+  text-align: right;
+}
+
+.book-listing-page {
+  padding: 2px 5px;
+  border: 1px solid #eee;
+  margin: 4px;
+  border-radius: 4px;
+}
+
+.book-listing-page:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+.book-listing-page-active{
+  background-color: #ccc;
+}
